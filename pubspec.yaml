@@ -18,21 +18,59 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.6.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.0
+  dio: ^3.0.9
+  dio_http_cache: ^0.2.5
+  fish_redux: ^0.3.7
+  common_utils: ^1.2.1
+  path_provider: ^1.3.0
+  shared_preferences: ^0.5.3+4
+  palette_generator: ^0.2.0
+  shimmer: ^1.0.1
+  url_launcher: ^5.2.5
+  chewie: ^0.12.2
+  video_player: ^1.0.1
+  youtube_player_flutter: ^7.0.0+7
+  intl: ^0.17.0-nullsafety.2
+  cached_network_image: ^2.0.0
+  parallax_image: ^0.3.1+1
+  flutter_staggered_grid_view: ^0.3.0
+  collection: ^1.14.11
+  photo_view: ^0.10.3
+  toast: ^0.1.5
+  permission_handler: ^3.2.2
+  screenshot: ^0.1.1
+  share_extend: ^1.0.9
+  qr_flutter: ^2.1.0+55
+  flutter_rating_bar: ^3.0.0
+  flutter_swiper: ^1.1.6
+  font_awesome_flutter: ^8.5.0
+  flutter_inappwebview: ^4.0.0
+  flutter_cache_manager: ^1.1.3
+  image_picker: ^0.6.7+2
+  cloud_firestore: ^0.13.4+2
+  firebase_auth: ^0.15.5+3
+  google_sign_in: ^4.2.0
+  firebase_storage: ^3.1.3
+  firebase_analytics: ^5.0.11
+  lottie: ^0.4.0+1
+  package_info: ^0.4.0+16
+  flutter_downloader: ^1.5.0
+  flutter_braintree: ^0.6.0
+  camera: ^0.5.8+2
+  flutter_local_notifications: ^1.4.4+1
+  graphql_flutter: ^3.0.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  flutter_localizations:
+    sdk: flutter
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
