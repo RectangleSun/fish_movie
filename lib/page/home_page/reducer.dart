@@ -6,7 +6,7 @@ import 'state.dart';
 Reducer<HomePageState> buildReducer() {
   return asReducer(
     <Object, Reducer<HomePageState>>{
-      home_pageAction.action: _onAction,
+      HomePageAction.action: _onAction,
     },
   );
 }

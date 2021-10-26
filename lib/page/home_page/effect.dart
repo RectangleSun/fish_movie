@@ -5,7 +5,7 @@ import 'state.dart';
 
 Effect<HomePageState> buildEffect() {
   return combineEffects(<Object, Effect<HomePageState>>{
-    home_pageAction.action: _onAction,
+    HomePageAction.action: _onAction,
   });
 }
 
